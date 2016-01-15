@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="5"  lines-covered="5"  line-rate="1"  branches-valid="6"  branches-covered="6"  branch-rate="1"  timestamp="1452878484209" complexity="0" version="0.1">
+<sources>
+	<source>/Users/ruicarneiro/Documents/Workspace/gulp-karma-browserify-babelify-istanbul-isparta/with-babel-6</source>
+</sources>
+<packages>
+	<package name="src"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="example-service-provider.js"  filename="src/example-service-provider.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="ExampleServiceProvider"  hits="2"  signature="()V" >
+				<lines><line number="6"  hits="2" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="1"  signature="()V" >
+				<lines><line number="10"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="2"  signature="()V" >
+				<lines><line number="18"  hits="2" /></lines>
+			</method>
+			<method name="randomServiceMethod"  hits="1"  signature="()V" >
+				<lines><line number="20"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="2"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="21"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="module.js"  filename="src/module.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="_interopRequireDefault"  hits="1"  signature="()V" >
+				<lines><line number="9"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
