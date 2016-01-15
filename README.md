@@ -1,6 +1,6 @@
 # gulp, karma, browserify, babelify, istanbul and isparta
 
-This is a sample project to show that this [wombo-combo](https://www.youtube.com/watch?v=pD_imYhNoQ4) only work with babel 5.
+This is a sample project to show that this [wombo-combo](https://www.youtube.com/watch?v=pD_imYhNoQ4) only work with babel 5. Issue opened at [isparta (#107)](https://github.com/douglasduteil/isparta/issues/107)
 
 ## Babelify and isparta with babel-core 5
 
