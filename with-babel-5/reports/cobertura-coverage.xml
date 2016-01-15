@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="16"  lines-covered="15"  line-rate="0.9375"  branches-valid="6"  branches-covered="4"  branch-rate="0.6667000000000001"  timestamp="1452873535898" complexity="0" version="0.1">
+<sources>
+	<source>/Users/ruicarneiro/Documents/Workspace/gulp-karma-browserify-babelify-istanbul-isparta</source>
+</sources>
+<packages>
+	<package name="src"  line-rate="0.9375"  branch-rate="0.6667000000000001" >
+	<classes>
+		<class name="example-service-provider.js"  filename="src/example-service-provider.js"  line-rate="0.9091"  branch-rate="0.5" >
+		<methods>
+			<method name="ExampleServiceProvider"  hits="2"  signature="()V" >
+				<lines><line number="6"  hits="2" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="1"  signature="()V" >
+				<lines><line number="10"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="2"  signature="()V" >
+				<lines><line number="18"  hits="2" /></lines>
+			</method>
+			<method name="randomServiceMethod"  hits="1"  signature="()V" >
+				<lines><line number="20"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="1"  branch="false" />
+			<line number="3"  hits="2"  branch="false" />
+			<line number="5"  hits="2"  branch="false" />
+			<line number="7"  hits="2"  branch="false" />
+			<line number="8"  hits="0"  branch="false" />
+			<line number="11"  hits="2"  branch="false" />
+			<line number="13"  hits="2"  branch="false" />
+			<line number="15"  hits="2"  branch="false" />
+			<line number="21"  hits="1"  branch="false" />
+			<line number="32"  hits="1"  branch="false" />
+			<line number="33"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="module.js"  filename="src/module.js"  line-rate="1"  branch-rate="0.75" >
+		<methods>
+			<method name="_interopRequireDefault"  hits="1"  signature="()V" >
+				<lines><line number="3"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="true"  condition-coverage="75% (3/4)" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="9"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
